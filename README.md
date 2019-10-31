@@ -1,81 +1,68 @@
-# Clicky Game
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Overview
+## Available Scripts
 
-For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+In the project directory, you can run:
 
-### Commits
+### `npm start`
 
-Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* Committing often is a signal to employers that you are actively working on your code and learning.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-  * We use the mantra “commit early and often.”  This means that when you write code that works, add it and commit it!
+### `npm test`
 
-  * Numerous commits allow you to see how your app is progressing and give you a point to revert to if anything goes wrong.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-* Be clear and descriptive in your commit messaging.
+### `npm run build`
 
-  * When writing a commit message, avoid vague messages like "fixed." Be descriptive so that you and anyone else looking at your repository knows what happened with each commit.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-### Submission on BCS
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-* **This assignment must be deployed.** * Please submit both the deployed GitHub Pages link to your homework AND the link to the Github Repository!
+### `npm run eject`
 
-### Instructions
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-1. Check out the [example solution](https://clicky-game.netlify.com/) and study the app's basic functionality.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-3. The application should render different images (of your choice) to the screen. Each image should listen for click events.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-4. The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
+## Learn More
 
-5. Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-6. Once the user's score is reset after an incorrect guess, the game should restart.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-7. When complete, the application should be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
+### Code Splitting
 
-- - -
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-#### Minimum Requirements
+### Analyzing the Bundle Size
 
-* **This assignment must be deployed.** Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Github Pages and adding a README.md are required for this homework. In addition, add this homework to your portfolio. More information can be found below.
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-- - -
+### Making a Progressive Web App
 
-#### Hints
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-* Begin by building a non-functioning static version for your Clicky Game. Then work on making the game interactive.
+### Advanced Configuration
 
-### Reminder: Submission on BCS
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-* Please submit both the deployed GitHub Pages link to your homework AND the link to the Github Repository!
+### Deployment
 
-- - -
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### Create a README.md
+### `npm run build` fails to minify
 
-Add a `README.md` to your repository describing the project. Here are some resources for creating your `README.md`. Here are some resources to help you along the way:
-
-* [About READMEs](https://help.github.com/articles/about-readmes/)
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
-- - -
-
-### Add To Your Portfolio
-
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-
-- - -
-
-#### One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-**Good Luck!**
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

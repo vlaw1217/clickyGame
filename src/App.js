@@ -1,33 +1,23 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
-import Header from './components/layout/Header'
-//import imageTest from "./images/totoro1.jpg";
-
-// import ImageDisplay from './components/layout/ImageDisplay'
+import Header from './components/layout/Header';
+import Image from './components/layout/Image';
 import './App.css';
-var listOfImages = [];
+
+
+// var listOfImages = [];
 
 class App extends Component {
-  importAll(r) {
-    return r.keys().map(r);
-  }
-  componentWillMount() {
-    listOfImages = this.importAll(
-      require.context("./images/", false, /\.(png|jpg|svg)$/)
-    );
-  }
-  render() {
-    
-    return (
-      <div className="App">
-        <Header />
-       
-        {listOfImages.map((image, index) => (
-          <img key={index} src={image} alt="info"></img>
-        ))}
-      </div>
-    );
-  }
+
+render() {
+  
+  return (
+    <div className="App">
+      <Header />
+      <Image />
+    </div>
+  );
+}
 }
 
 export default App;

@@ -13,10 +13,13 @@ render() {
   
   return (
     <div className="App">
+      
       <Header />
       <Image />
+    
     </div>
   );
+     
 }
 }
 

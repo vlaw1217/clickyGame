@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "name": "aaaa",
+    "image": "./images/totoro1.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "aaaa",
+    "image": "./images/totoro2.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "aaaa",
+    "image": "./images/totoro3.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "aaaa",
+    "image": "./images/totoro4.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "aaaa",
+    "image": "./images/totoro5.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "aaaa",
+    "image": "./images/totoro6.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "aaaa",
+    "image": "./images/totoro7.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "aaaa",
+    "image": "./images/totoro8.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "aaaa",
+    "image": "./images/totoro9.jpg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "aaaa",
+    "image": "./images/totoro10.jpg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "aaaa",
+    "image": "./images/totoro11.jpg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "aaaa",
+    "image": "./images/totoro12.jpg",
+    "clicked": false
+  }
+]
+
+
